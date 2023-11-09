@@ -1,0 +1,10 @@
+torch~=2.1.0+cu121
+torchvision~=0.16.0+cu121
+tqdm~=4.66.1
+numpy~=1.24.1
+pandas~=2.1.2
+scikit-learn~=1.3.2
+Pillow~=9.3.0
+matplotlib~=3.8.1
+flask~=3.0.0
+torchcam~=0.4.0
