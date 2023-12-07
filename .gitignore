@@ -158,3 +158,6 @@ cython_debug/
 /images
 !/images
 /images
+/cams
+!/cams
+/cams
