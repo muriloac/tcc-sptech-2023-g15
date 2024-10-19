@@ -89,6 +89,9 @@ def generate_cam(image_tensor, model, top_idx, original_image_size):
     result = result.squeeze().numpy()
     result = (result - result.min()) / (result.max() - result.min())
 
+    # Inverter o mapa de ativação para garantir que valores mais altos correspondam a cores mais quentes
+    result = 1 - result
+
     return result
 
 
